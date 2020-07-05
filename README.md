@@ -1,6 +1,6 @@
 # A Dicision-Based Dynamic Ensemble Selection Method for Concept Drift
 
-paper from: https://ieeexplore.ieee.org/document/8995320  
+cited paper: https://ieeexplore.ieee.org/document/8995320  
 R. A. S. Albuquerque, A. F. J. Costa, E. Miranda dos Santos, R. Sabourin and R. Giusti, "A Decision-Based Dynamic Ensemble Selection Method for Concept Drift," 2019 IEEE 31st International Conference on Tools with Artificial Intelligence (ICTAI), Portland, OR, USA, 2019, pp. 1132-1139, doi: 10.1109/ICTAI.2019.00158.
 
 ## Abstract
