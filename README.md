@@ -18,3 +18,29 @@ This phrase aimed at choosing an expert ensemble to assign labels to unknown ins
 Here the predicted label is compared to the true label to detect whether the prediction is correct or not, this information is used in error monitoring progress from drift detector to indicate the occurrence of drift. The author uses a tradition drift detector DDM and ADWIN with Leveraging Bagging as drift detector in this paper.
 4. Drift Reaction  
 In the last phrase, there are different possible scenarios. When a drift is indicated, a new population of ensembles will be created, if not, then the ensemble will be updated by training with new instance (x_t+1) and new label (y_t+1).
+
+## How to run
+### Installation
+
+
+    install anaconda https://www.anaconda.com/products/individual
+
+
+### Run
+
+
+    run "pip install -r requirements.txt"
+
+There are multiple scripts, each script name denots which dataset it loads and run model on. For example, `spam.py` works with spam.csv dataset. The datasets are inside dataset folders.
+
+To run a script use the following command:
+
+    python -W ignore script_name.py   
+
+For example: python -W ignore spam.py
+
+### Output
+
+After running, there will be a graph, and the terminal will print the accuracy, drift count for model.
+
+The results are in results folder.
