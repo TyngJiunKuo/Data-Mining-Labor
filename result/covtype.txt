@@ -1,0 +1,8 @@
+DetectorClassifier
+DDM
+Exact Match 0.37
+Number of detected drifts: 2521
+---------------------------------------
+GaussianNB
+Exact Match 1.00
+---------------------------------------

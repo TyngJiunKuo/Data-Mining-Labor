@@ -1,0 +1,6 @@
+---------------------------------------
+DetectorClassifier
+DDM
+Exact Match 0.85
+Number of detected drifts: 16
+---------------------------------------
